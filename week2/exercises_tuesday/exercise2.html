@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise1</title>
+   
 </head>
 
 <body>
@@ -14,38 +15,21 @@
     <form action="">
         <fieldset>
             <legend>Personliche Daten</legend>
-            <table>
+            <table >
                 <tr>
-                    <td>
-                        <label for="titel">Titel</label>
-                    </td>
-                    <td></td>
-                    <td>
-                        <input type="text" id="titel" placeholder="Dr.hc">
-                    </td>
+                    <td><label for="titel">Titel</label></td>
+                    <td><input type="text" id="titel" placeholder="Dr.hc"></td>
                 </tr>
                 <tr>
-                    <td>
-                        <label for="vorname">Vorname</label>
-                    </td>
-                    <td></td>
-                    <td>
-                        <input type="text" id="vorname" placeholder="Peter">
-                    </td>
+                    <td><label for="vorname">Vorname</label></td>
+                    <td><input type="text" id="vorname" placeholder="Peter"></td>
                 </tr>
                 <tr>
-                    <td>
-                        <label for="nachname">Nachname</label>
-                    </td>
-                    <td></td>
-                    <td>
-                        <input type="text" id="nachname" placeholder="Muster">
-                    </td>
+                    <td><label for="nachname">Nachname</label></td>
+                    <td><input type="text" id="nachname" placeholder="Muster"></td>
                 </tr>
                 <tr>
-                    <td>
-                        <label for="geschlecht">Geschlecht</label>
-                    </td>
+                    <td><label>Geschlecht</label></td>
                     <td>
                         <input type="radio" name="geschlecht" id="w">
                         <label for="w">W</label>
@@ -54,14 +38,17 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><label for="sprache" name="sprache" >Sprache</label></td>
-                    <td></td>
-                    <td><input type="radio" id="de" name="sprache"></td>
-                    <td><label for="de">DE</label></td>
-                    <td><input type="radio" id="fr" name="sprache"></td>
-                    <td><label for="fr">FR</label></td>
-                    <td><input type="radio" id="it" name="sprache"></td>
-                    <td><label for="it">IT</label></td>
+                    <td>
+                        <label for="" name="sprache">Sprache</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="de" name="sprache">
+                        <label for="de">DE</label>
+                        <input type="radio" id="fr" name="sprache">
+                        <label for="fr">FR</label>
+                        <input type="radio" id="it" name="sprache">
+                        <label for="it">IT</label>
+                    </td>
                 </tr>
             </table>
         </fieldset>
@@ -69,10 +56,70 @@
             <legend>Kontaktdaten</legend>
             <table>
                 <tr>
-                   
+                   <td><label for="telefon">Telefon</label></td>
+                   <td><input type="tel" id="telefon" required></td>
+                </tr>
+                <tr>
+                    <td><label for="mobile">Mobile</label></td>
+                    <td><input type="tel" id="mobile" placeholder="optional"></td>
+                </tr>
+                <tr>
+                    <td><label for="hauptnummer">Hauptnummer</label></td>
+                    <td><input type="tel" id="hauptnummer" placeholder="optional"></td>
+                </tr>
+                <tr>
+                    <td><label for="fax">Fax</label></td>
+                    <td><input type="tel" id="fax" placeholder="optional"></td>
+                </tr>
+                <tr>
+                    <td><label for="mail1">Mail 1</label></td>
+                    <td><input type="email" id="mail1" required></td>
+                </tr>
+                <tr>
+                    <td><label for="mail2">Mail 2</label></td>
+                    <td><input type="email" id="mail2" placeholder="optional"></td>
                 </tr>
             </table>
         </fieldset>
+        <fieldset>
+            <legend>Adressdaten</legend>
+            <table>
+                <tr>
+                    <td><label for="firma">Firma</label></td>
+                    <td><input type="text" id="firma" required></td>
+                </tr>
+                <tr>
+                    <td><label for="zusatz">Zusatz Firma</label></td>
+                    <td><input type="text" id="zusatz" placeholder="optional"></td>
+                </tr>
+                <tr>
+                    <td><label for="homepage">Homepage</label></td>
+                    <td><input type="text" id="homepage" placeholder="optional"></td>
+                </tr>
+                <tr>
+                    <td><label for="adresse">Adresse /</label>
+                        <label for="nr"> Haus Nr</label></td>
+                    <td><input type="text" id="adresse" placeholder="Musterstrasse"> <input type="number" id="nr" placeholder="33"></td>
+                </tr>
+                <tr>
+                    <td><label for="zusatz_adresse">Zusatz Adresse</label></td>
+                    <td><input type="text" id="zusatz_adresse" placeholder="optional"></td>
+                </tr>
+                <tr>
+                    <td><label for="postfach">Postfach</label></td>
+                    <td><input type="text" id="postfach" placeholder="optional"></td>
+                </tr>
+                <tr>
+                    <td><label for="plz">PLZ / </label><label for="ort">Ort</label></td>
+                    <td><input type="number" name="plz" id="plz" placeholder="8800"><input type="text" id="ort" placeholder="Musterstadt"></td>
+                </tr>
+                <tr>
+                    <td><label for="kanton">Kanton / </label><label for="land">Land</label></td>
+                    <td><input type="text" id="kanton" placeholder="ZH"><input type="text" id="land" placeholder="Schweiz"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <input type="submit">
     </form>
 
 </body>
