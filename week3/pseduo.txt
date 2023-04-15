@@ -1,0 +1,19 @@
+1- create an input field
+2- specify the limitations 
+   > each input should be a number (0 to 9) 
+   > min 1 max 10 digits in the field
+   > there should be a seperator as comma (there can be space after comma)
+3- verify the the input if it is valid
+4- if it is valid input, sort the numbers
+    > initiliaze a loop 
+        >it will pick all the numbers 
+    > create an array
+        >it will take these numbers as an element
+5- initialize a loop for the array elements
+6- create a variable to hold a number.
+7- create a new array to stack sorted numbers
+8- in the loop, initialize a statement
+        > if the current element is smaller than first element, assign it to variable
+        > end of the loop, stack the value of variable to last array.
+        > remove this number from the first array
+9- create an output field and print the last array elements§

@@ -43,8 +43,8 @@ section{
     /* FOR FLEX RESPONSIVE */
     display: flex;
     flex-wrap: wrap;
-    
-    gap: 40px; 
+    gap: 40px;
+    align-content: ;
     text-align: center;
     justify-content: center;
 
@@ -54,7 +54,7 @@ div{
     flex-basis: 500px;
     flex-shrink: 0;
     flex-grow: 1;
-    
+
     margin: 20px 0;
 }
 

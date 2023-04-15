@@ -32,8 +32,7 @@ li{
 }
 .parags{
     display: flex;
-    justify-content:;
-    flex-direction: ;
+
 }
 .sec2{
     background-color: blue;
@@ -53,4 +52,5 @@ li{
 footer p{
     margin: auto;
     width: fit-content;
+
 }
